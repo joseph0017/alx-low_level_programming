@@ -3,12 +3,12 @@
 /**
  * main - Entry point
  *
- * description : 'to display a string using the puts method'
+ * description: 'to display a string using the puts method'
  *
- * return : 'Always 0 (Succcess)'
+ * Return: Always 0 (Success)
  */
 
-int main(void) /* return : 'always 0, no arguments for main' */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
