@@ -8,7 +8,7 @@
  * return : Always 0 (Succcess)
  */
 
-int main(void) // no arguments for main
+int main(void) /* no arguments for main */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
