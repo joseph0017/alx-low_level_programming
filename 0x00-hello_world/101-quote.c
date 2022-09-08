@@ -1,11 +1,11 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
  *
- * description: 'to display a string using the sprintf method'
+ * description: 'to display a string using the write method'
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
