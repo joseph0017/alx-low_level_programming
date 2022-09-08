@@ -5,6 +5,7 @@
  *
  * description : 'to display a string using the puts method'
  *
+ * return : Always 0 (Succcess)
  */
 
 int main(void)
