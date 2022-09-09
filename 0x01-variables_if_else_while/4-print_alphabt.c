@@ -15,7 +15,7 @@ int main(void)
 	not_e = 'e';
 	not_q = 'q';
 
-	for (alphs = 'a'; alphs <= 'q'; alphs = alphs + 1)
+	for (alphs = 'a'; alphs <= 'z'; alphs = alphs + 1)
 	{
 		if (alphs != not_e && alphs != not_q)
 		{
