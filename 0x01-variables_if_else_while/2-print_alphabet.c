@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main = Entry Point
+ * main - Entry Point
  * description: 'alphabets'
  * Return: alphabets
  */
@@ -14,6 +14,7 @@ int main(void)
 	for (lower_alphs = 'a'; lower_alphs <= 'z'; lower_alphs += 1)
 	{
 		putchar(lower_alphs);
+		putchar('\n');
 	}
 	return (0);
 }
