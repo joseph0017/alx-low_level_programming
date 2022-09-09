@@ -9,18 +9,17 @@ int main(void)
 {
 	int j, k;
 
-	for(j = '0'; j <= '9'; j = j + 1)
+	for (j = '0'; j <= '9'; j = j + 1)
 	{
 		for (k = '1'; k <= '9'; k = k + 1)
 		{
-			if(k != j)
+			if (k != j)
 			{
 				putchar(j);
 				putchar(k);
-				
-				if (j = '8' && k = '9')
+				if (j == '8' && k == '9')
 				{
-					continue
+					continue;
 				}
 
 				putchar(',');
