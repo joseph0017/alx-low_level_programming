@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry
- * description: 'description'
- * return: something
+ * main - Entry Point
+ * Description: 'inequalities'
+ * Return: Always an Integer(Success)
  */
 
 int main(void)
