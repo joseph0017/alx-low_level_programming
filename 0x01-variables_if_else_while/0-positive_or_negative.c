@@ -1,37 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <time.h>
 
 /**
- * main - Entry Point
+ * main - Entry point
  *
- * Description: 'to print positive, negative values at random'
+ * Description: 'print positive or negative numbers'
  *
- * Return: return n
+ * Return: print random numbers
  */
 
-int main(void)
+int main() 
 {
 	int n;
 	srand(time(0));
-	n = rand()  - RAND_MAX / 2;
-	printf("%d \n", n);
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
-		printf("The number is positive \n");
+		printf("%d is positive\n", n);
 	}
-
-	else if (n < 0)
+	else if (n == 0)
 	{
-		printf("The number is negative \n");
+		printf("%d is zero\n", n);
 	}
-
-	else
+	else 
 	{
-		printf("The number is zero \n");
+		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
