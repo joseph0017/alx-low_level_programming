@@ -1,13 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
+/**
+ * main - Entry Point
+ *
+ * Description: 'to print positive, negative values at random'
+ *
+ * Return: return n
+ */
 
 int main(void)
 {
 	int n;
-
-	srand(time(0));
-	n = rand()  - RAND_MAX / 2;
 
 	printf("%d \n", n);
 
@@ -21,10 +24,10 @@ int main(void)
 		printf("The number is negative \n");
 	}
 
-	else 
+	else
 	{
 		printf("The number is zero \n");
 	}
 
-	return 0;
+	return (0);
 }
