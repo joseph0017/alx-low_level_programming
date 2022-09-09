@@ -21,13 +21,13 @@ int main(void)
 	{
 		printf("%d and is greater than 5\n", digit);
 	}
-	else if (digit ==0)
+	else if (digit == 0)
 	{
-		printf("%d and is 0", digit);
+		printf("%d and is 0 \n", digit);
 	}
 	else if (digit < 6)
 	{
-		printf("%d and is less than 6 and not 0");
+		printf("%d and is less than 6 and not 0\n", digit);
 	}
 	return (0);
 }
