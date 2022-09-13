@@ -14,12 +14,11 @@ int main(void)
 
 		for (alphs = 'a'; alphs <= 'z'; alphs = alphs + 1)
 		{
-			putchar(alphs)'
+			putchar(alphs);
 		}
 		putchar('\n');
-
-		return(alphs);
 	}
+
 	print_alphabet();
 
 	return (0);
