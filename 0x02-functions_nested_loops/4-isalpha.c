@@ -12,7 +12,7 @@ int _isalpha(int c)
 
 	for (lower = 'a'; lower <= 'z'; lower = lower +1)
 	{
-		for (upper = 'A'; upper = 'Z'; upper = upper +1)
+		for (upper = 'A'; upper <= 'Z'; upper = upper +1)
 		{
 			if (c == lower || c == upper)
 			{
