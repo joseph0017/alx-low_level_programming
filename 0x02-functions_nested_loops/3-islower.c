@@ -2,6 +2,7 @@
 
 /**
  * _islower - lower alphabets
+ * @c : argument to be checked
  * Return: alphabets
  */
 
@@ -15,10 +16,6 @@ int _islower(int c)
 		if (j == c)
 		{
 			lower_alphs = 0;
-		}
-		else if (j != c)
-		{
-			lower_alphs = 1;
 		}
 	}
 	return (lower_alphs);
