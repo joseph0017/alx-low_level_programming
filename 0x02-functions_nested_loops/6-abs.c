@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _abs: print absolute integer
+ * _abs: print absolute integer
  * @c: an argument
  * Return: 0
  */
@@ -12,7 +12,7 @@ int _abs(int c)
 	{
 		return (c);
 	}
-	else 
+	else
 	{
 		return (c * -1);
 	}
