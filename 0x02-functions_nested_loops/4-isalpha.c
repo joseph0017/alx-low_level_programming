@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if its both uppercase and lowercase and gives aa value of 1
+ * _isalpha - checks both uppercase and lowercase and gives a value of 1
+ * @c: value to be checked
  * Return: always 1 success
  */
 
