@@ -2,7 +2,13 @@
 
 #define MAIN_H
 #include <stdio.h>
+/**
+ * main - entry point
+ * Return: something
+ */
 
-printf("print something\n");
-
+int main(void)
+{
+	printf("print something\n");
+}
 #endif
