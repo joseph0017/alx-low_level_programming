@@ -1,22 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-#include <stdio.h>
 
 void print_alphabet(void);
 
-/**
- * print_alphabet - prints alphabets
- * Return: success 0
- */
-
-void print_alphabet(void)
-{
-	char alphs;
-
-	for (alphs = 'a'; alphs <= 'z'; alphs++)
-	{
-		putchar(alphs);
-	}
-	putchar('\n');
-}
 #endif /* _MAIN_H_ */
