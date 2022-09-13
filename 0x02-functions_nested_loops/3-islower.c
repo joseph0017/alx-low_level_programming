@@ -20,6 +20,6 @@ int _islower(int c)
 		{
 			lower_alphs = 1;
 		}
-		return (lower_alphs);
+	return (lower_alphs);
 	}
 }
