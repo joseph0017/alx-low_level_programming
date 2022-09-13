@@ -12,13 +12,14 @@ int _islower(int c)
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		if (j == lower_alphs)
+		if (j == c)
 		{
 			lower_alphs = 0;
 		}
-		else if (j != lower_alphs)
+		else if (j != c)
 		{
 			lower_alphs = 1;
 		}
+		return (lower_alphs);
 	}
 }
