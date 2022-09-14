@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 8-24_hours.c - 24
+ * jack_bauer - 24
  * Return: jack bauer
  */
 
@@ -21,7 +21,7 @@ void jack_bauer(void)
 			_putchar(hrs / 10 + '0');
 			_putchar(hrs_left + '0');
 			_putchar(':');
-			_putchar(mins /10 + '0');
+			_putchar(mins / 10 + '0');
 			_putchar(mins_left + '0');
 			mins++;
 			_putchar('\n');
