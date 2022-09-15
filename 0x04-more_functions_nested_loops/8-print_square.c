@@ -11,10 +11,10 @@ void print_square(int size)
 	int hash1;
 	int hash2;
 
-	for (hash1 = 0; hash1 < n; hash1++)
+	for (hash1 = 0; hash1 < size; hash1++)
 	{
 
-		for (hash2 = 1; hash2 < n; hash2++)
+		for (hash2 = 1; hash2 < size; hash2++)
 		{
 			_putchar('#');
 		}
