@@ -13,12 +13,13 @@ void print_square(int size)
 
 	for (hash1 = 0; hash1 < n; hash1++)
 	{
-		_putchar('#');
 
 		for (hash2 = 1; hash2 < n; hash2++)
 		{
 			_putchar('#');
 		}
+
+		_putchar('#');
 		_putchar('\n');
 	}
 }
