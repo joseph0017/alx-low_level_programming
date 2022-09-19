@@ -2,7 +2,7 @@
 
 /**
  * rev_string - function that reverses strings
- * @s - argument
+ * @s: argument
  * Return: string
  */
 
@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 
 	a = 0;
-	while (s[a] != '\0')	
+	while (s[a] != '\0')
 	{
 		a++;
 	}
@@ -28,5 +28,4 @@ void rev_string(char *s)
 		c++;
 		b--;
 	}
-	
 }
