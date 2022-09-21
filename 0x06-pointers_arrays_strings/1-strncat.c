@@ -5,6 +5,7 @@
  * @dest: first argument
  * @src: second argument
  * @n: third argument
+ * Return: returns pointer to dest
  */
 
 char *_strncat(char *dest, char *src, int n)
