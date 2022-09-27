@@ -2,9 +2,9 @@
 
 /**
  * _memset - a function that fills memory with a constant byte
- * s: first parameter
- * b: second parameter
- * n: third parameter
+ * @s: first parameter
+ * @b: second parameter
+ * @n: third parameter
  * Return: n
  */
 
