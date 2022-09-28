@@ -2,31 +2,31 @@
 
 /**
  * is_prime_number - returns 1 if the input integer is a prime number
- * @n: parameter
+ * @n: argument
  * Return: return value of n
  */
 
 int is_prime_number(int n)
 {
-	int i = n / 2;
+	int start = n / 2;
 
 	if (n <= 1)
 		return (0);
-	return (is_prime(n, i));
+	return (is_prime(n, start));
 }
 
 /**
- * is_prime - checks if it is a prime number
+ * is_prime - checks for prime number
  * @n: argument
- * @i: argument
- * Return: return value of n
+ * @start: argument
+ * Return: return 0
  */
 
-int is_prime(int n, int i)
+int is_prime(int n, int start)
 {
-	if (i <= 1)
+	if (start <= 1)
 		return (1);
-	else if (n % i == 0)
+	else if (n % start == 0)
 		return (0);
-	return (is_prime(n, i - 1));
+	return (is_prime(n, start - 1));
 }
