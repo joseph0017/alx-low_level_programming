@@ -8,7 +8,7 @@
  * Return: 0 always success
  */
 
-int main(argc, *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
