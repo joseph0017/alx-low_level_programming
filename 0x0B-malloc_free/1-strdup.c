@@ -13,6 +13,9 @@ char *_strdup(char *str)
 	static char *dup;
 	char *dup_offset;
 
+	if (str == NULL)
+		return (NULL);
+
 	for (org_size = 0; str[org_size]; org_size++)
 		dup++;
 
