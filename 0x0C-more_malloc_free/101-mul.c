@@ -18,11 +18,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
+	else
+	{
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
 
-	mul = num1 * num2;
+		mul = num1 * num2;
 
-	printf("%d\n", mul);
-	return (0);
+		printf("%d\n", mul);
+		return (0);
+	}
 }
