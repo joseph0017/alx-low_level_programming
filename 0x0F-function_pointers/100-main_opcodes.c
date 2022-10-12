@@ -35,9 +35,9 @@ int main(int argc, char *argv[])
 	{
 		while (i < (byte - 1))
 		{
-			printf("%02hhu ", ptr[i++]);
+			printf("%02hhx ", ptr[i++]);
 		}
-		printf("%hhu\n", ptr[i]);
+		printf("%hhx\n", ptr[i]);
 	}
 	return (0);
 
