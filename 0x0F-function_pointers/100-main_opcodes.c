@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 
 	unsigned char *ptr;
 
-	byte = atoi(argv[1]);
-
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
+
+	byte = atoi(argv[1]);
 
 	if (byte < 0)
 	{
@@ -40,6 +40,4 @@ int main(int argc, char *argv[])
 		printf("%hhx\n", ptr[i]);
 	}
 	return (0);
-
-
 }
