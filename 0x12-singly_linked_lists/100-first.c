@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* constructor in c */
+
 void msg_constructor(void) __attribute__((constructor));
 
 /**
