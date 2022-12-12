@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * main - Entry Point
+ * last_digit - Entry Point
  * Description: 'inequalities'
  * Return: Always an Integer(Success)
  */
 
-int main(void)
+int last_digit(void)
 {
 	int n, digit;
 
